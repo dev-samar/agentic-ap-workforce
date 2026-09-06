@@ -30,7 +30,7 @@
         <mxCell id="bT2Ia62zeDz1jjJFZlsK-50" parent="bT2Ia62zeDz1jjJFZlsK-87" style="ellipse;whiteSpace=wrap;html=1;rounded=1;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" value="Token Conservation Routing" vertex="1">
           <mxGeometry height="60" width="90" x="940" y="250" as="geometry" />
         </mxCell>
-        <mxCell id="bT2Ia62zeDz1jjJFZlsK-93" parent="0" value="Specialized Sub Agents" />
+        <mxCell id="bT2Ia62zeDz1jjJFZlsK-93" parent="0" value="Specialized Sub Agents" visible="0" />
         <mxCell id="bT2Ia62zeDz1jjJFZlsK-94" parent="bT2Ia62zeDz1jjJFZlsK-93" style="ellipse;whiteSpace=wrap;html=1;rounded=1;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" value="Vendor-PO Validation Agent" vertex="1">
           <mxGeometry height="50" width="75" x="764" y="285" as="geometry" />
         </mxCell>
@@ -93,7 +93,7 @@
         <mxCell id="bT2Ia62zeDz1jjJFZlsK-123" edge="1" parent="bT2Ia62zeDz1jjJFZlsK-93" source="bT2Ia62zeDz1jjJFZlsK-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bT2Ia62zeDz1jjJFZlsK-122" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bT2Ia62zeDz1jjJFZlsK-90" parent="0" value="Core Processing" />
+        <mxCell id="bT2Ia62zeDz1jjJFZlsK-90" parent="0" value="Core Processing" visible="0" />
         <mxCell id="bT2Ia62zeDz1jjJFZlsK-79" parent="bT2Ia62zeDz1jjJFZlsK-90" style="ellipse;whiteSpace=wrap;html=1;rounded=1;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" value="Extraction Agent (LLM)" vertex="1">
           <mxGeometry height="50" width="75" x="200" y="770" as="geometry" />
         </mxCell>
@@ -103,7 +103,7 @@
         <mxCell id="bT2Ia62zeDz1jjJFZlsK-83" parent="bT2Ia62zeDz1jjJFZlsK-90" style="ellipse;whiteSpace=wrap;html=1;rounded=1;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" value="Skills entry in SAP" vertex="1">
           <mxGeometry height="50" width="75" x="610" y="770" as="geometry" />
         </mxCell>
-        <mxCell id="bT2Ia62zeDz1jjJFZlsK-86" parent="0" value="Input Channels" />
+        <mxCell id="bT2Ia62zeDz1jjJFZlsK-86" parent="0" value="Input Channels" visible="0" />
         <mxCell id="bT2Ia62zeDz1jjJFZlsK-69" parent="bT2Ia62zeDz1jjJFZlsK-86" style="ellipse;whiteSpace=wrap;html=1;rounded=1;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" value="Email" vertex="1">
           <mxGeometry height="50" width="75" x="850" y="-260" as="geometry" />
         </mxCell>
@@ -116,7 +116,7 @@
         <mxCell id="bT2Ia62zeDz1jjJFZlsK-73" parent="bT2Ia62zeDz1jjJFZlsK-86" style="ellipse;whiteSpace=wrap;html=1;rounded=1;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" value="Vendor Portals" vertex="1">
           <mxGeometry height="50" width="75" x="990" y="-260" as="geometry" />
         </mxCell>
-        <mxCell id="bT2Ia62zeDz1jjJFZlsK-85" parent="0" style="locked=0;" value="Process Flow" />
+        <mxCell id="bT2Ia62zeDz1jjJFZlsK-85" parent="0" style="locked=0;" value="Process Flow" visible="0" />
         <mxCell id="bT2Ia62zeDz1jjJFZlsK-77" parent="bT2Ia62zeDz1jjJFZlsK-85" style="ellipse;whiteSpace=wrap;html=1;rounded=1;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" value="Core Processing Node" vertex="1">
           <mxGeometry height="50" width="75" x="766" y="-25" as="geometry" />
         </mxCell>
@@ -126,7 +126,7 @@
         <mxCell id="1ea317790d2ca983-2" parent="bT2Ia62zeDz1jjJFZlsK-85" style="ellipse;whiteSpace=wrap;html=1;rounded=1;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" value="&lt;span&gt;3 Way Matching&lt;/span&gt;" vertex="1">
           <mxGeometry height="50" width="75" x="760" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="bT2Ia62zeDz1jjJFZlsK-145" parent="0" value="Fraud Prevention" />
+        <mxCell id="bT2Ia62zeDz1jjJFZlsK-145" parent="0" value="Fraud Prevention" visible="0" />
         <mxCell id="bT2Ia62zeDz1jjJFZlsK-136" parent="bT2Ia62zeDz1jjJFZlsK-145" style="whiteSpace=wrap;html=1;rounded=0;" value="Ghost Invoice Detection" vertex="1">
           <mxGeometry height="60" width="120" x="-780" y="370" as="geometry" />
         </mxCell>
@@ -136,7 +136,7 @@
         <mxCell id="bT2Ia62zeDz1jjJFZlsK-142" parent="bT2Ia62zeDz1jjJFZlsK-145" style="whiteSpace=wrap;html=1;rounded=0;" value="Segregation of Duties" vertex="1">
           <mxGeometry height="60" width="120" x="-780" y="550" as="geometry" />
         </mxCell>
-        <mxCell id="bT2Ia62zeDz1jjJFZlsK-126" parent="0" value="Opertional Value" />
+        <mxCell id="bT2Ia62zeDz1jjJFZlsK-126" parent="0" value="Opertional Value" visible="0" />
         <mxCell id="bT2Ia62zeDz1jjJFZlsK-124" parent="bT2Ia62zeDz1jjJFZlsK-126" style="whiteSpace=wrap;html=1;rounded=0;" value="Real Time Cash Flow Transparency" vertex="1">
           <mxGeometry height="60" width="120" x="-780" y="286" as="geometry" />
         </mxCell>
@@ -149,7 +149,7 @@
         <mxCell id="bT2Ia62zeDz1jjJFZlsK-115" parent="bT2Ia62zeDz1jjJFZlsK-126" style="whiteSpace=wrap;html=1;rounded=0;" value="Audit Readiness" vertex="1">
           <mxGeometry height="60" width="120" x="-780" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="bT2Ia62zeDz1jjJFZlsK-127" parent="0" value="Strategic Benefits" />
+        <mxCell id="bT2Ia62zeDz1jjJFZlsK-127" parent="0" value="Strategic Benefits" visible="0" />
         <mxCell id="bT2Ia62zeDz1jjJFZlsK-131" edge="1" parent="bT2Ia62zeDz1jjJFZlsK-127" source="bT2Ia62zeDz1jjJFZlsK-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="bT2Ia62zeDz1jjJFZlsK-118">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -182,7 +182,7 @@
         <mxCell id="bT2Ia62zeDz1jjJFZlsK-129" parent="bT2Ia62zeDz1jjJFZlsK-127" style="whiteSpace=wrap;html=1;rounded=0;" value="Fraud Prevention" vertex="1">
           <mxGeometry height="60" width="120" x="-540" y="460" as="geometry" />
         </mxCell>
-        <mxCell id="bT2Ia62zeDz1jjJFZlsK-152" parent="0" value="KPI Indicators" />
+        <mxCell id="bT2Ia62zeDz1jjJFZlsK-152" parent="0" value="KPI Indicators" visible="0" />
         <mxCell id="bT2Ia62zeDz1jjJFZlsK-150" parent="bT2Ia62zeDz1jjJFZlsK-152" style="whiteSpace=wrap;html=1;rounded=0;" value="Straight Throughput&amp;nbsp; Processing (STP) Rate" vertex="1">
           <mxGeometry height="60" width="120" x="-530" y="-140" as="geometry" />
         </mxCell>
