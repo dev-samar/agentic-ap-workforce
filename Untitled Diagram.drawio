@@ -1,15 +1,15 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="G1ppk7U4zOi9L-e9ZR0d">
-    <mxGraphModel dx="2738" dy="1513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1095" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <UserObject label="" mermaidData="{&#xa;  &quot;data&quot;: &quot;graph TD\n    %% Input channels triggering the graph\n    subgraph Channels [Enterprise Channels]\n        Email[Email: Gmail / Outlook] --&gt;|Attachment detected| IntakeAgent[invoice-intake-agent]\n        Chat[Chat: Slack / Teams] --&gt;|File uploaded| IntakeAgent\n    end\n\n    %% First Node in LangGraph\n    subgraph Node_Intake [1. Intake Node]\n        IntakeAgent --&gt;|Validate and Save| FS[Virtual Filesystem / Scratch]\n        FS --&gt;|Write State| State1[State: raw_document_path]\n    end\n\n    %% Second Node in LangGraph\n    subgraph Node_Extraction [2. Extraction Node]\n        State1 --&gt; ExtractAgent[extraction-agent]\n        ExtractAgent --&gt;|Parse Multimodal Document| ExtractionLLM[LLM with Structured Output]\n        ExtractionLLM --&gt;|Validate using Pydantic| SchemaValidation{Pydantic Schema Match?}\n        SchemaValidation --&gt;|Yes| State2[State: extracted_invoice_data]\n        SchemaValidation --&gt;|No| Exception[Raise Extraction Exception / Manual Route]\n    end\n\n    %% Route to validation\n    State2 --&gt; NextStep[To: vendor-po-validation-agent]\n\n    style IntakeAgent fill:#ecf0f1,stroke:#2c3e50,stroke-width:2px\n    style ExtractAgent fill:#ecf0f1,stroke:#2c3e50,stroke-width:2px\n    style State2 fill:#2ecc71,stroke:#27ae60,stroke-width:2px&quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="lO7t2PUZccm5flOl8Q1s-1">
-          <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=10;" vertex="1">
+          <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=10;noLabel=0;" vertex="1">
             <mxGeometry as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="Enterprise Channels" mermaidId="n:Channels" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=light-dark(#ffffde,#1f2020);strokeColor=light-dark(#aaaa33,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Enterprise Channels" id="lO7t2PUZccm5flOl8Q1s-2">
+        <UserObject label="Enterprise Channels" mermaidId="n:Channels" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=light-dark(#ffffde,#1f2020);strokeColor=light-dark(#aaaa33,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Enterprise Channels" placeholders="1" Logic="" id="lO7t2PUZccm5flOl8Q1s-2">
           <mxCell parent="lO7t2PUZccm5flOl8Q1s-1" style="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=light-dark(#ffffde,#1f2020);strokeColor=light-dark(#aaaa33,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
             <mxGeometry height="247" width="549" x="165" y="30" as="geometry" />
           </mxCell>
@@ -24,7 +24,7 @@
             <mxGeometry height="54" width="208" x="165" y="168" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="Chat: Slack / Teams" mermaidId="n:Chat" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Chat: Slack / Teams" id="lO7t2PUZccm5flOl8Q1s-5">
+        <UserObject label="Chat: Slack / Teams" mermaidId="n:Chat" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Chat: Slack / Teams/ WhatsApp" placeholders="1" logic="reject all other channels." id="lO7t2PUZccm5flOl8Q1s-5">
           <mxCell parent="lO7t2PUZccm5flOl8Q1s-2" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
             <mxGeometry height="54" width="203" x="35" y="45" as="geometry" />
           </mxCell>
