@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36">
+<mxfile host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" pages="2">
   <diagram id="42789a77-a242-8287-6e28-9cd8cfd52e62" name="Page-1">
     <mxGraphModel dx="2195" dy="1455" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="1">
       <root>
@@ -305,6 +305,149 @@
         </mxCell>
         <mxCell id="bT2Ia62zeDz1jjJFZlsK-111" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="AI Agent Orchestration" vertex="1">
           <mxGeometry height="60" width="120" x="190" y="280" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="x-McxkV4I5vM_WfpApd-" name="Page-2">
+    <mxGraphModel dx="1095" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CawxW0VCKIzZwojL_GGs-10" edge="1" parent="1" source="CawxW0VCKIzZwojL_GGs-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="CawxW0VCKIzZwojL_GGs-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-38" edge="1" parent="1" source="CawxW0VCKIzZwojL_GGs-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="CawxW0VCKIzZwojL_GGs-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6e6;strokeColor=#d9534f" value="Ingestion Gatekeeper-(PII redaction, Schema validation, Tenant quota)" vertex="1">
+          <mxGeometry height="120" width="220" x="660" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-36" edge="1" parent="1" source="CawxW0VCKIzZwojL_GGs-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="CawxW0VCKIzZwojL_GGs-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="Token Conservation" Strategies="Strategies:\- Summarize + truncate\- Cached embeddings &amp; retrieval\- Use lower-cost models for deterministic tasks\ Prompt templates &amp; batching" id="CawxW0VCKIzZwojL_GGs-12">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f2f2f2;strokeColor=#999999" vertex="1">
+            <mxGeometry height="120" width="220" x="660" y="265" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-37" edge="1" parent="1" source="CawxW0VCKIzZwojL_GGs-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="CawxW0VCKIzZwojL_GGs-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff7e6;strokeColor=#f0ad4e" value="Message Bus (Kafka/SQS)" vertex="1">
+          <mxGeometry height="50" width="220" x="370" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-40" edge="1" parent="1" source="CawxW0VCKIzZwojL_GGs-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="CawxW0VCKIzZwojL_GGs-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-41" edge="1" parent="1" source="CawxW0VCKIzZwojL_GGs-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="CawxW0VCKIzZwojL_GGs-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-42" edge="1" parent="1" source="CawxW0VCKIzZwojL_GGs-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="CawxW0VCKIzZwojL_GGs-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-44" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="413" />
+              <mxPoint x="405" y="413" />
+            </Array>
+            <mxPoint x="210" y="368" as="sourcePoint" />
+            <mxPoint x="405" y="463" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6ffe6;strokeColor=#5cb85c" value="AI Agent Main (Orchestration)" vertex="1">
+          <mxGeometry height="80" width="260" x="80" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-27" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="160" width="380" x="10" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-15" parent="CawxW0VCKIzZwojL_GGs-27" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#222222" value="Observability &amp; Security" vertex="1">
+          <mxGeometry height="160" width="380" as="geometry" />
+        </mxCell>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-16" parent="CawxW0VCKIzZwojL_GGs-27" style="rectangle;whiteSpace=wrap;html=1" value="Monitoring (Prometheus / Grafana)" vertex="1">
+          <mxGeometry height="28" width="160" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-17" parent="CawxW0VCKIzZwojL_GGs-27" style="rectangle;whiteSpace=wrap;html=1" value="Tracing (OpenTelemetry)" vertex="1">
+          <mxGeometry height="28" width="160" x="90" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-18" parent="CawxW0VCKIzZwojL_GGs-27" style="rectangle;whiteSpace=wrap;html=1" value="Secrets Manager (Vault)" vertex="1">
+          <mxGeometry height="28" width="160" x="200" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-26" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="160" width="220" x="910" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-22" parent="CawxW0VCKIzZwojL_GGs-26" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff0f0;strokeColor=#d9534f" value="Fraud Prevention" vertex="1">
+          <mxGeometry height="160" width="220" as="geometry" />
+        </mxCell>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-23" parent="CawxW0VCKIzZwojL_GGs-26" style="rectangle;whiteSpace=wrap;html=1" value="Ghost Invoice Detection" vertex="1">
+          <mxGeometry height="28" width="180" x="20" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-24" parent="CawxW0VCKIzZwojL_GGs-26" style="rectangle;whiteSpace=wrap;html=1" value="BEC Scam Protection" vertex="1">
+          <mxGeometry height="28" width="180" x="20" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-25" parent="CawxW0VCKIzZwojL_GGs-26" style="rectangle;whiteSpace=wrap;html=1" value="Segregation of Duties (SOD)" vertex="1">
+          <mxGeometry height="28" width="180" x="20" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-29" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="40" width="420" x="810" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-19" parent="CawxW0VCKIzZwojL_GGs-29" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff0e6;strokeColor=#d9534f" value="Error / Rejection Queue" vertex="1">
+          <mxGeometry height="40" width="180" as="geometry" />
+        </mxCell>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-20" parent="CawxW0VCKIzZwojL_GGs-29" style="rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#5bc0de" value="Human Review UI" vertex="1">
+          <mxGeometry height="40" width="160" x="260" as="geometry" />
+        </mxCell>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-21" edge="1" parent="CawxW0VCKIzZwojL_GGs-29" source="CawxW0VCKIzZwojL_GGs-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1" target="CawxW0VCKIzZwojL_GGs-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-31" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="120" width="440" x="110" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-1" parent="CawxW0VCKIzZwojL_GGs-31" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontStyle=1" value="Input Channels" vertex="1">
+          <mxGeometry height="120" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-2" parent="CawxW0VCKIzZwojL_GGs-31" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6a600" value="Email" vertex="1">
+          <mxGeometry height="40" width="60" x="10" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-3" parent="CawxW0VCKIzZwojL_GGs-31" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6a600" value="Supplier Portal" vertex="1">
+          <mxGeometry height="40" width="60" x="90" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-4" parent="CawxW0VCKIzZwojL_GGs-31" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6a600" value="SFTP / Batch" vertex="1">
+          <mxGeometry height="40" width="60" x="50" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-30" connectable="0" parent="CawxW0VCKIzZwojL_GGs-31" style="group" value="" vertex="1">
+          <mxGeometry height="120" width="220" x="220" as="geometry" />
+        </mxCell>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-5" parent="CawxW0VCKIzZwojL_GGs-30" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eaf7ff;strokeColor=#5b9bd5" value="Python PreIngestion Checks" vertex="1">
+          <mxGeometry height="120" width="220" as="geometry" />
+        </mxCell>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-6" parent="CawxW0VCKIzZwojL_GGs-30" style="rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#5b9bd5" value="OCR Confidence &amp; Dedup" vertex="1">
+          <mxGeometry height="28" width="180" x="20" y="82" as="geometry" />
+        </mxCell>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-7" parent="CawxW0VCKIzZwojL_GGs-30" style="rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#5b9bd5" value="Format Detection\no OCR required" vertex="1">
+          <mxGeometry height="28" width="180" x="20" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-8" edge="1" parent="CawxW0VCKIzZwojL_GGs-31" source="CawxW0VCKIzZwojL_GGs-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="CawxW0VCKIzZwojL_GGs-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-32" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#5cb85c" value="OCR / Parsing (Sub-agent)" vertex="1">
+          <mxGeometry height="40" width="90" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-33" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#5cb85c" value="Vendor Matching(Sub-agent)" vertex="1">
+          <mxGeometry height="40" width="90" x="120" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-34" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2ee;strokeColor=#d9534f" value="Fraud Scoring (Sub-agent)" vertex="1">
+          <mxGeometry height="40" width="90" x="360" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-35" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#5cb85c" value="Accounting Validation(Sub-agent)" vertex="1">
+          <mxGeometry height="40" width="110" x="230" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-45" edge="1" parent="1" source="CawxW0VCKIzZwojL_GGs-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;shape=wire;dashed=1;dashPattern=8 8;strokeColor=none;" target="CawxW0VCKIzZwojL_GGs-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-46" edge="1" parent="1" source="CawxW0VCKIzZwojL_GGs-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.547;entryY=0.992;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=12 12;" target="CawxW0VCKIzZwojL_GGs-14">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
