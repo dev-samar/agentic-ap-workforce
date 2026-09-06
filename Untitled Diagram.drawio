@@ -390,7 +390,7 @@
           <mxGeometry height="28" width="180" x="20" y="120" as="geometry" />
         </mxCell>
         <mxCell id="CawxW0VCKIzZwojL_GGs-29" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="40" width="420" x="810" y="710" as="geometry" />
+          <mxGeometry height="40" width="420" x="430" y="750" as="geometry" />
         </mxCell>
         <mxCell id="CawxW0VCKIzZwojL_GGs-19" parent="CawxW0VCKIzZwojL_GGs-29" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff0e6;strokeColor=#d9534f" value="Error / Rejection Queue" vertex="1">
           <mxGeometry height="40" width="180" as="geometry" />
@@ -431,14 +431,55 @@
         <mxCell id="CawxW0VCKIzZwojL_GGs-8" edge="1" parent="CawxW0VCKIzZwojL_GGs-31" source="CawxW0VCKIzZwojL_GGs-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="CawxW0VCKIzZwojL_GGs-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-47" edge="1" parent="1" source="CawxW0VCKIzZwojL_GGs-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.367;exitY=1.046;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="CawxW0VCKIzZwojL_GGs-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="33" y="550" />
+              <mxPoint x="520" y="550" />
+            </Array>
+            <mxPoint x="90" y="520" as="sourcePoint" />
+            <mxPoint x="520" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="CawxW0VCKIzZwojL_GGs-32" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#5cb85c" value="OCR / Parsing (Sub-agent)" vertex="1">
           <mxGeometry height="40" width="90" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-48" edge="1" parent="1" source="CawxW0VCKIzZwojL_GGs-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="CawxW0VCKIzZwojL_GGs-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="165" y="550" />
+              <mxPoint x="520" y="550" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="CawxW0VCKIzZwojL_GGs-33" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#5cb85c" value="Vendor Matching(Sub-agent)" vertex="1">
           <mxGeometry height="40" width="90" x="120" y="460" as="geometry" />
         </mxCell>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-50" edge="1" parent="1" source="CawxW0VCKIzZwojL_GGs-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="CawxW0VCKIzZwojL_GGs-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="405" y="550" />
+              <mxPoint x="520" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="CawxW0VCKIzZwojL_GGs-34" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2ee;strokeColor=#d9534f" value="Fraud Scoring (Sub-agent)" vertex="1">
           <mxGeometry height="40" width="90" x="360" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-49" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="CawxW0VCKIzZwojL_GGs-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="550" as="sourcePoint" />
+            <mxPoint x="500" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CawxW0VCKIzZwojL_GGs-51" edge="1" parent="1" source="CawxW0VCKIzZwojL_GGs-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="285" y="550" />
+              <mxPoint x="520" y="550" />
+            </Array>
+            <mxPoint x="520" y="750" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="CawxW0VCKIzZwojL_GGs-35" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#5cb85c" value="Accounting Validation(Sub-agent)" vertex="1">
           <mxGeometry height="40" width="110" x="230" y="460" as="geometry" />
