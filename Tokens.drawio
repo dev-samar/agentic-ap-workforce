@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" pages="2">
-  <diagram name="Page-1" id="q3mcuvrzdeSdRK03YW-g">
-    <mxGraphModel dx="1933" dy="877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram name="Pattern 1: High-Performance Token Caching &amp; Pre-Fetching" id="q3mcuvrzdeSdRK03YW-g">
+    <mxGraphModel dx="2470" dy="1120" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -53,13 +53,13 @@
             <mxGeometry height="442" width="1445" x="107" y="535" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="LVe-4DVXrWpF0vgMP6Wl-12" parent="LVe-4DVXrWpF0vgMP6Wl-11" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=16;fontFamily=Recursive;fontColor=#28253D;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="[Benefits Data Cached (Cache Hit)]" vertex="1">
+        <mxCell id="LVe-4DVXrWpF0vgMP6Wl-12" parent="LVe-4DVXrWpF0vgMP6Wl-11" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=16;fontFamily=Recursive;fontColor=#28253D;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="[ Data Cached (Cache Hit)]" vertex="1">
           <mxGeometry height="16" width="1391" x="54" y="2" as="geometry" />
         </mxCell>
         <mxCell id="LVe-4DVXrWpF0vgMP6Wl-13" parent="LVe-4DVXrWpF0vgMP6Wl-11" style="shape=line;dashed=1;fixDash=1;dashPattern=2 2;strokeColor=#28253D;" vertex="1">
           <mxGeometry height="1" width="1445" y="142" as="geometry" />
         </mxCell>
-        <mxCell id="LVe-4DVXrWpF0vgMP6Wl-14" parent="LVe-4DVXrWpF0vgMP6Wl-11" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=16;fontFamily=Recursive;fontColor=#28253D;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="[Benefits Data Missing (Cache Miss / First-time user)]" vertex="1">
+        <mxCell id="LVe-4DVXrWpF0vgMP6Wl-14" parent="LVe-4DVXrWpF0vgMP6Wl-11" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=16;fontFamily=Recursive;fontColor=#28253D;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value=" Data Missing (Cache Miss / First-time user)]" vertex="1">
           <mxGeometry height="16" width="1445" y="144" as="geometry" />
         </mxCell>
         <UserObject label="API Request (e.g., Get Benefits for Member ID)" mermaidId="e:Caller-&gt;MW#0" mermaidBaseStyle="endArrow=block;endSize=9;verticalAlign=bottom;spacingBottom=2;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;fontSize=16;labelBackgroundColor=none;strokeWidth=1.5;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;" mermaidBaseValue="API Request (e.g., Get Benefits for Member ID)" id="LVe-4DVXrWpF0vgMP6Wl-15">
@@ -266,7 +266,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="fZhIyRpkKVlG2B1rmW6q" name="Page-2">
+  <diagram id="fZhIyRpkKVlG2B1rmW6q" name="Pattern 2 Cascading Resiliency (Cheap-to-Expensive LLM/API Call)">
     <mxGraphModel dx="2470" dy="1120" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
