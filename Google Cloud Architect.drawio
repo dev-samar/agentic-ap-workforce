@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="fogG5Vu027G9Ue82w4C1">
-    <mxGraphModel dx="15672" dy="8922" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2457" dy="2929" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -276,10 +276,16 @@
           <mxGeometry height="30" width="492" x="1832" y="383" as="geometry" />
         </mxCell>
         <mxCell id="mZOz6Scr3c5H25clqlI8-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;--nb-type-scale-default-wght: &amp;quot;wght&amp;quot; 540; font-variation-settings: &amp;quot;ROND&amp;quot; 0, &amp;quot;slnt&amp;quot; 0, &amp;quot;wdth&amp;quot; 92, &amp;quot;wght&amp;quot; 540; font-synthesis-weight: none; color: rgb(48, 48, 48); font-family: &amp;quot;Google Sans Flex&amp;quot;, &amp;quot;Google Sans&amp;quot;, Roboto, sans-serif; font-size: 17px; text-align: start; white-space: pre-wrap; background-color: rgb(250, 249, 249);&quot;&gt;Activate Cloud Shell&lt;/span&gt;&lt;span style=&quot;color: rgb(48, 48, 48); font-family: &amp;quot;Google Sans Flex&amp;quot;, &amp;quot;Google Sans&amp;quot;, Roboto, sans-serif; font-size: 17px; text-align: start; white-space: pre-wrap; background-color: rgb(250, 249, 249);&quot;&gt; icon (&lt;/span&gt;&lt;span class=&quot;code&quot; style=&quot;font-family: &amp;quot;Google Sans Code&amp;quot;, monospace; font-size: 0.9375rem; color: rgba(0, 0, 0, 0.55); background: none 0% 0% / auto repeat scroll padding-box border-box rgb(242, 240, 240); padding: 0.25rem; unicode-bidi: isolate; font-variant: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: &amp;quot;ROND&amp;quot; 0, &amp;quot;slnt&amp;quot; 0, &amp;quot;wdth&amp;quot; 92, &amp;quot;wght&amp;quot; 540; font-stretch: normal; display: inline-block; vertical-align: middle; line-height: 0.875rem; border-radius: 9999px; padding-block: 4px; padding-inline: 0.375rem; --nb-type-scale-default-wght: &amp;quot;wght&amp;quot; 540; font-synthesis-weight: none; text-align: start; white-space: pre-wrap;&quot;&gt;&amp;gt;_&lt;/span&gt;&lt;span style=&quot;color: rgb(48, 48, 48); font-family: &amp;quot;Google Sans Flex&amp;quot;, &amp;quot;Google Sans&amp;quot;, Roboto, sans-serif; font-size: 17px; text-align: start; white-space: pre-wrap; background-color: rgb(250, 249, 249);&quot;&gt;) in the top-right corner of the Google Cloud Console.&lt;/span&gt;" vertex="1">
-          <mxGeometry height="30" width="630" x="1771" y="457" as="geometry" />
+          <mxGeometry height="30" width="630" x="1865" y="413" as="geometry" />
         </mxCell>
         <mxCell id="mZOz6Scr3c5H25clqlI8-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: rgb(48, 48, 48); font-family: &amp;quot;Google Sans Flex&amp;quot;, &amp;quot;Google Sans&amp;quot;, Roboto, sans-serif; font-size: 17px; text-align: start; white-space: pre-wrap; background-color: rgb(250, 249, 249);&quot;&gt;Run the following command&lt;/span&gt;" vertex="1">
-          <mxGeometry height="30" width="317" x="1771" y="495" as="geometry" />
+          <mxGeometry height="30" width="317" x="1865" y="446" as="geometry" />
+        </mxCell>
+        <mxCell id="mZOz6Scr3c5H25clqlI8-6" parent="1" style="text;whiteSpace=wrap;html=1;" value="gcloud compute ssh app-vm-1 \&#xd;&#xa;    --zone=us-central1-a \&#xd;&#xa;    --tunnel-through-iap \&#xd;&#xa;    --project=cymbal-retail-staging" vertex="1">
+          <mxGeometry height="151.1" width="461" x="1863" y="482" as="geometry" />
+        </mxCell>
+        <mxCell id="mZOz6Scr3c5H25clqlI8-7" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;perimeter=cloudPerimeter;" value="app-Vm-1 is my vm name I had slected zone given here while creating vm, tunnel was setup during vpc setup, project name was given before evrything else" vertex="1">
+          <mxGeometry height="204" width="395" x="2060" y="437" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
