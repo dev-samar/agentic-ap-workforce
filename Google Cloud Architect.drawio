@@ -285,7 +285,7 @@
           <mxGeometry height="151.1" width="461" x="1863" y="482" as="geometry" />
         </mxCell>
         <mxCell id="mZOz6Scr3c5H25clqlI8-7" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;perimeter=cloudPerimeter;" value="app-Vm-1 is my vm name I had slected zone given here while creating vm, tunnel was setup during vpc setup, project name was given before evrything else" vertex="1">
-          <mxGeometry height="204" width="395" x="2060" y="437" as="geometry" />
+          <mxGeometry height="230" width="395" x="2060" y="411" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
